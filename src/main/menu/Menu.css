@@ -1,0 +1,42 @@
+.Menu {
+  position: relative;
+  width: 200px;
+  /* height: 30px; */
+  /* border: 1px solid white; */
+  /* margin-bottom: 10px; */
+  margin: 0px auto;
+  z-index: 150
+}
+
+.Menu button {
+  /* border: 1px solid white; */
+  width: 200px;
+  height: 55px;
+  background: transparent;
+  font-size: 14px;
+  color: white;
+  border: none
+}
+
+.Menu .restaurant {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 5px 5px 0 0
+}
+.Menu .services {
+  border: 1px solid white;
+}
+.Menu .contact {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 0 0 5px 5px
+}
+
+.Menu .intro:hover, .Menu .intro:active,
+.Menu .intro:focus {
+  background:rgb(230,230,230);
+  color: gray;
+  opacity: 0.8
+}
