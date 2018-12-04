@@ -62,7 +62,7 @@ class Main extends Component {
             switch={this.state.switch}
             click={this.changeSwitch}
             menu={this.state.selectedMenu}/>
-          <MyLogo switch={this.state.switch}/>
+
         </div>
       )
     }
