@@ -12,7 +12,7 @@ const backdrop = (props) => {
   } else {
     console.log('it was false')
     return <div className='BackdropTwo'>
-              <MyLogo switch={props.switch}/>
+              {/* <MyLogo switch={props.switch}/> */}
            </div>;
   }
 
