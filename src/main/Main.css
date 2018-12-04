@@ -5,7 +5,7 @@
   text-align: center;
   background: url('../images/main.jpg') no-repeat fixed;
   font-family: 'open sans';
-  animation: OpenMain 600ms ease-out forwards
+  animation: OpenMain 110ms ease-out forwards
 }
 
 
@@ -15,7 +15,7 @@
         /* transform: translateY(-100%) */
     }
     50%{
-        opacity: .8;
+        opacity: .4;
         /* transform: translateY(29%) */
     }
     100%{
