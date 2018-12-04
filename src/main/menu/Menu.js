@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Intro from './intro/Intro'
 import Services from './services/Services'
+import Owner from './owner/Owner'
 import Contact from './contact/Contact'
 import './Menu.css'
 
@@ -31,6 +32,11 @@ class Menu extends Component {
       }
       if(this.props.menu === 'services'){
         myMenu = <Services 
+                click={this.props.click}
+                menu={this.props.menu}/>
+      }
+       if(this.props.menu === 'owner'){
+        myMenu = <Owner 
                 click={this.props.click}
                 menu={this.props.menu}/>
       }

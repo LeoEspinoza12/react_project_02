@@ -9,7 +9,7 @@ import Backdrop from '../components/backdrop/Backdrop'
 class Main extends Component {
 
   state = {
-    navOptions: ['restaurant', 'services', 'contact'],
+    navOptions: ['restaurant', 'services', 'owner', 'contact'],
     switch: false,
     selectedMenu: null
   }

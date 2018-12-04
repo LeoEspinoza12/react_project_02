@@ -1,0 +1,34 @@
+.Owner {
+  position: fixed;
+  width: 384px;
+  height: 490px;
+  top: 50%;
+  left: 50%;
+  margin: -245px -192px;
+  background: transparent
+}
+
+.Owner div {
+  width: 354px;
+  height: 199px;
+  background: url('../../../images/service.jpg') no-repeat center;
+  margin: 15px auto;
+  border: 1px solid rgb(180, 180, 180)
+}
+
+.Owner h4 {
+  color: white;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 0
+}
+
+.Owner p {
+  width: 354px;
+  margin: 10px auto;
+
+  color: white;
+  font-size: 14px;
+  text-align: justify;
+  font-weight: 100
+}

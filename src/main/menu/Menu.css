@@ -24,9 +24,13 @@
   border-right: 1px solid white;
   border-radius: 5px 5px 0 0
 }
-.Menu .services {
+.Menu .services, .Menu .owner {
   border: 1px solid white;
 }
+.Menu .owner {
+  border-top: none
+}
+
 .Menu .contact {
   border-bottom: 1px solid white;
   border-left: 1px solid white;
