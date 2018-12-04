@@ -3,7 +3,7 @@ import './Main.css'
 import Heading from '../components/heading/Heading'
 import Menu from './menu/Menu'
 import Backdrop from '../components/backdrop/Backdrop'
-
+import MyLogo from '../components/myLogo/MyLogo'
 
 
 class Main extends Component {
@@ -49,6 +49,7 @@ class Main extends Component {
             switch={this.state.switch}/>
           {heading}
           {navigation}
+          <MyLogo />
         </div>
       )
     } else {
@@ -61,6 +62,7 @@ class Main extends Component {
             switch={this.state.switch}
             click={this.changeSwitch}
             menu={this.state.selectedMenu}/>
+            <MyLogo />
         </div>
       )
     }

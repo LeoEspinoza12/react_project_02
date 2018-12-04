@@ -1,0 +1,11 @@
+.MyLogo {
+  width: 50%;
+  margin: 0 auto;
+  /* background: peru */
+}
+.MyLogo a {
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  text-decoration: none
+}
