@@ -7,6 +7,7 @@
   color: #fce7e2;
   z-index: 200;
   /* font-family: Tahoma */
+  animation: OpenHeading 600ms ease-out forwards
 }
 
 .Top, .Bottom {
@@ -43,4 +44,21 @@
   width: 2px;
   height: 50px;
   background: white
+}
+
+@keyframes OpenHeading {
+  0% {
+    opacity: 0;
+    /* transform: translateY(-100%) */
+  }
+
+  50% {
+    opacity: .3;
+    /* transform: translateY(29%) */
+  }
+
+  100% {
+    opacity: 1;
+    /* transform: translateY(0%) */
+  }
 }

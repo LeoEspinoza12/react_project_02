@@ -5,5 +5,21 @@
   text-align: center;
   background: url('../images/main.jpg') no-repeat fixed;
   font-family: 'open sans';
-  
+  animation: OpenMain 600ms ease-out forwards
+}
+
+
+@keyframes OpenMain{
+   0% {
+        opacity: 0;
+        /* transform: translateY(-100%) */
+    }
+    50%{
+        opacity: .8;
+        /* transform: translateY(29%) */
+    }
+    100%{
+        opacity: 1;
+        /* transform: translateY(0%) */
+    }
 }
