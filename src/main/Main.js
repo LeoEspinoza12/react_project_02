@@ -40,7 +40,7 @@ class Main extends Component {
             click={this.changeSwitch}
             switch={this.state.switch}
             navOption={option}
-            option={option} />
+            option={option === 'contact' ? 'contact us' : option} />
         )
       })
       return (

@@ -8,27 +8,37 @@
   background: transparent
 }
 
-.Contact div {
-  width: 354px;
-  height: 199px;
-  background: url('../../../images/service.jpg') no-repeat center;
-  margin: 15px auto;
-  border: 1px solid rgb(180, 180, 180)
-}
-
 .Contact h4 {
   color: white;
   font-weight: 300;
   font-size: 22px;
-  margin: 0
+  margin: auto;
+  margin-top: 40px
 }
 
-.Contact p {
-  width: 354px;
-  margin: 10px auto;
-
+.Contact input {
+  width: 80%;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 15px;
+  font-family: 'open sans';
+  background: transparent;
   color: white;
-  font-size: 14px;
-  text-align: justify;
-  font-weight: 100
+  font-weight: 200;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.Contact textarea {
+  width: 80%;
+  height: 175px;
+  padding: 10px 20px 0 20px;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  font-family: 'open sans';
+  border-radius: 5px;
+  border: 1px solid white
 }

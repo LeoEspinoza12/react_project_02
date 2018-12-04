@@ -43,7 +43,7 @@ class Menu extends Component {
                 click={this.props.click}
                 menu={this.props.menu}/>
       }
-      if(this.props.menu === 'contact'){
+      if(this.props.menu === 'contact us'){
         myMenu = <Contact 
                 click={this.props.click}
                 menu={this.props.menu}/>
