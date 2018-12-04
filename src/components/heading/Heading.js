@@ -7,7 +7,7 @@ const Heading = () => {
       <div className='Top'></div>
         <h1>Tracy's Restaurant</h1>
         <h3>All Filipino Ingredients, Authentic Menu.</h3>
-        <h3>With Fine Dining Experience And Great Ambience.</h3>
+        <h3>With Fine Dining Experience And Great Ambiance.</h3>
       <div className='Bottom'></div>
       <hr/>
 
