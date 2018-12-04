@@ -8,7 +8,7 @@
   background: transparent
 }
 
-.Intro div {
+.Intro .img {
   width: 354px;
   height: 199px;
   background: url('../../../images/ingredients.jpg') no-repeat center;

@@ -1,11 +1,29 @@
 .MyLogo {
+  position: relative;
   width: 50%;
   margin: 0 auto;
-  /* background: peru */
 }
 .MyLogo a {
+  
   color: white;
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 100;
+  text-decoration: none
+}
+
+
+.MyLogoMenu{
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  margin: auto
+}
+
+.MyLogoMenu a {
+  
+  
+  color: white;
+  font-size: 13px;
   font-weight: 100;
   text-decoration: none
 }

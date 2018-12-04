@@ -49,7 +49,7 @@ class Main extends Component {
             switch={this.state.switch}/>
           {heading}
           {navigation}
-          <MyLogo />
+          <MyLogo switch={this.state.switch}/>
         </div>
       )
     } else {
@@ -62,7 +62,7 @@ class Main extends Component {
             switch={this.state.switch}
             click={this.changeSwitch}
             menu={this.state.selectedMenu}/>
-            <MyLogo />
+          <MyLogo switch={this.state.switch}/>
         </div>
       )
     }

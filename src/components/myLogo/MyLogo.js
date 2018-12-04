@@ -1,9 +1,18 @@
 import React from 'react'
 import './MyLogo.css'
 
-const MyLogo = () => {
+const MyLogo = (props) => {
+
+  let classname = null
+
+  if(!props.switch){
+    classname = 'MyLogo'
+  } else {
+    classname = 'MyLogoMenu'
+  }
+
   return (
-    <div className='MyLogo'>
+    <div className={classname}>
       <p><a href="http://tracy-aiman-restaurant.herokuapp.com">@ aimanski.com</a></p>
     </div>
   )
