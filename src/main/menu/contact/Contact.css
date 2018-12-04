@@ -16,11 +16,12 @@
   margin-top: 40px
 }
 
-.Contact input {
+.Contact input, 
+.Contact textarea {
   width: 80%;
   height: 50px;
   padding: 0 20px;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'open sans';
   background: transparent;
   color: white;
@@ -32,13 +33,19 @@
 }
 
 .Contact textarea {
-  width: 80%;
-  height: 175px;
+  height: 150px;
   padding: 10px 20px 0 20px;
-  margin-top: 10px;
-  background: transparent;
+}
+
+.Contact input[type='submit']{
+  width: 90%
+}
+
+.Contact p{
+  /* background: peru; */
+  font-size: 11px;
   color: white;
-  font-family: 'open sans';
-  border-radius: 5px;
-  border: 1px solid white
+  width: 90%;
+  margin: auto;
+  margin-top: 5px
 }
