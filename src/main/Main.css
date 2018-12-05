@@ -1,11 +1,11 @@
-.Main {
+    .Main {
   position: absolute;
   width: 100%;
   height: 100vh;
   text-align: center;
   background: url('../images/Mains.jpg') no-repeat center center;
   font-family: 'open sans';
-  animation: OpenMain 110ms ease-out forwards
+  animation: OpenMain 1100ms ease-out forwards
 }
 
 
@@ -14,7 +14,7 @@
         opacity: 0;
     }
     50%{
-        opacity: .4;
+        opacity: .8;
     }
     100%{
         opacity: 1;
@@ -23,6 +23,7 @@
 
 @media (min-width: 600px){
     .Main {
+      height: 890px;
       background: url('../images/desktop.jpg') no-repeat center center;
     }
 } 

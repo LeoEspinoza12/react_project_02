@@ -3,7 +3,7 @@
   position: relative;
   margin: 100px 0 0 0 ;
   z-index: 200;
-  animation: OpenHeading 600ms ease-out forwards
+  animation: OpenHeading 1100ms ease-out forwards
 }
 
 .Top, .Bottom {
@@ -60,6 +60,56 @@
     height: 30px
   }
 }
+
+@media (min-width: 600px) {
+  .Heading {
+    /* background: gray; */
+    margin: 25vh auto;
+    margin-bottom: 0;
+    color: #eaece1;
+  }
+  .Top, .Bottom{
+    width: 400px;
+  }
+  .Heading h1, .Top{
+    animation: top 1100ms ease-out forwards;
+  }
+  .Heading hr {
+    display: none
+  }
+  .Heading h3, .Bottom {
+    animation: bottom 1100ms ease-out forwards;
+  }
+}
+
+
+@keyframes top {
+  0% {
+    transform: translateY(10px)
+  }
+
+  50% {
+    transform: translateY(-5px)
+  }
+
+  100% {
+    transform: translateY(0%)
+  }
+}
+@keyframes bottom {
+  0% {
+    transform: translateY(-5px)
+  }
+
+  50% {
+    transform: translateY(10px)
+  }
+
+  100% {
+    transform: translateY(0%)
+  }
+}
+
 
 
 @keyframes OpenHeading {
