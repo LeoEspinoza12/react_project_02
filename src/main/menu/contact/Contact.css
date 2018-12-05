@@ -6,7 +6,7 @@
   left: 50%;
   margin: -245px -192px;
   background: transparent;
-  animation: OpenContact 1000ms ease-out forwards
+  animation: OpenContact 1100ms ease-out forwards
 }
 
 .Contact h4 {
@@ -14,7 +14,7 @@
   font-weight: 300;
   font-size: 22px;
   margin: auto;
-  margin-top: 40px
+  margin-top: 20px
 }
 
 .Contact input, 

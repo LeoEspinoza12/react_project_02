@@ -48,62 +48,57 @@
   .Menu button{
     width: 180px;
     height: 45px;
-    font-size: 12px
+    font-size: 12px;
+    animation: menuAnimate 1100ms ease-out forwards
   }
 }
 
 @media (min-width: 600px) {
-  .Menu button {
-    /* background: blue;     */
-    margin-top: 20px;
+  .Menu {
+    /* height: 100% */
+  }
+  .Menu button{
+    margin: 0 auto;
+    margin-top: 15px;
     border: 1px solid white;
-    border-top: 1px solid white;
-    border-radius: 5px;
-    animation: MenuWideScreen 1100ms ease-out forwards;
+    animation: menuAnimate 1100ms ease-out forwards
   }
   .Menu .restaurant,
+  .Menu .services,
+  .Menu .owner,
   .Menu .contact {
-    border-radius: 5px
+    border-radius: 5px;
+    border-top: 1px solid white
   }
-  .Menu .owner{
-    border: 1px solid white
-  }
-  
-  .Menu button:hover{
-    background: rgb(220,220,220,  0.7);
-    color:rgb(30,30,30)
-  }
+
 }
 
-@keyframes MenuWideScreen {
-   0% {
-     transform: translateY(-8px)
-   }
 
-   50% {
-     transform: translateY(18px)
-   }
+@keyframes menuAnimate {
+  0% {
+    transform: translateY(-8px)
+  }
 
-   100% {
-     transform: translateY(0)
-   }
+  50% {
+    transform: translateY(18px)
+  }
+
+  100% {
+    transform: translateY(0%)
+  }
 }
-
 
 
 @keyframes OpenMenu {
   0% {
     opacity: 0;
-    transform: translateY(-8px)
   }
 
   50% {
     opacity: .5;
-    transform: translateY(18px)
   }
 
   100% {
     opacity: 1;
-    transform: translateY(0)
   }
 }
