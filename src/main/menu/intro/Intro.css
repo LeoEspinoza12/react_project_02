@@ -35,6 +35,34 @@
 }
 
 
+@media (max-width: 320px) and (max-height: 568px) {
+  .Intro {
+    width: 260px;
+    height: 354px;
+    margin: -184px -130px;
+    border: 1px solid transparent;
+  }
+  .Intro .img {
+    width: 240px;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 3px;
+  }
+  .Intro h4{
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .Intro p{
+    width: 235px;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 14px;
+  }
+}
+
+
 @keyframes OpenIntro {
   0% {
     opacity: 0;

@@ -14,11 +14,11 @@
 
 .MyLogoMenu{
   position: absolute;
-  bottom: 0;
-  margin-bottom: -40px;
+  bottom: 10px;
   height: 0px;
   width: 100%;
-  margin: auto
+  margin: auto;
+  background: gray
 }
 
 .MyLogoMenu a {
