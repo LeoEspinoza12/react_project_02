@@ -18,11 +18,11 @@ class Menu extends Component {
 
     // console.log('switch', this.props.switch)
     // console.log('menu', this.props.selectedMenu)
-
+    let classnames = [this.props.option, 'classAnimate']
 
     if(!this.props.switch){
       // console.log('menu page')
-      myMenu = <button className={this.props.option} onClick={()=> this.props.click(this.props.option)}>{this.props.option.toUpperCase()}</button>
+      myMenu = <button className={classnames.join(' ')} onClick={()=> this.props.click(this.props.option)}>{this.props.option.toUpperCase()}</button>
     } 
     
     

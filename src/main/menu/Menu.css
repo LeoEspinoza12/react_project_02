@@ -3,10 +3,12 @@
   width: 200px;
   margin: 0px auto;
   z-index: 150;
-  
   animation: OpenMenu 1100ms ease-out forwards 
 }
 
+.classAnimate{
+  animation: animateThis 1100ms ease-out forwards
+}
 .Menu button {
   width: 200px;
   height: 55px;
@@ -88,17 +90,34 @@
   }
 }
 
+@keyframes animateThis {
+  0% {
+    transform: translateY(-8px)
+  }
+
+  50% {
+    transform: translateY(18px)
+  }
+
+  100% {
+    transform: translateY(0%)
+  }
+}
+
 
 @keyframes OpenMenu {
   0% {
     opacity: 0;
+    /* transform: translateY(-8px) */
   }
 
   50% {
     opacity: .5;
+    /* transform: translateY(18px) */
   }
 
   100% {
     opacity: 1;
+    /* transform: translateY(0%) */
   }
 }
